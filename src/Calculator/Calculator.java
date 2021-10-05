@@ -40,7 +40,7 @@ public class Calculator {
 			System.out.println(div(num1, num2));
 			break;
 		case 5:
-			System.exit(5);
+			System.out.println("Program exit");
 			break;
 		default:
 			System.out.println("Invalid Choice, Try Again");
@@ -48,7 +48,7 @@ public class Calculator {
 		}
 	}
 	else if(userinp==5){
-			System.out.println("Program exit");
+			System.out.println("Program exit!");
 		}
 	else {
 		System.out.println("Invalid Choice");
